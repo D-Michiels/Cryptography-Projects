@@ -74,7 +74,7 @@ class ChatScreen(BoxLayout):
 class LoginScreen(App):
     def build(self):
         root = FloatLayout(size=Window.size)
-        self.bg_texture = Image('C:/Users/Isaac/Documents/GitHub/CryptoClass/pic.png').texture
+        self.bg_texture = Image('pic.png').texture
         with root.canvas.before:
             Color(1, 1, 1, 1)
             self.bg_rect = Rectangle(texture=self.bg_texture, size=Window.size, pos=(0, 0))
